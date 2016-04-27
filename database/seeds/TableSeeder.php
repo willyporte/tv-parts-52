@@ -18,7 +18,7 @@ class TableSeeder extends Seeder
             'name' => 'Administrator',
             'nickname' => 'admin',
             'email' => 'admin@mail.com',
-            'password' => bcrypt('s3cr3t'),
+            'password' => bcrypt('secret-password'),
             'type' => 'admin',
             'remember_token' => str_random(10)
         ]);
